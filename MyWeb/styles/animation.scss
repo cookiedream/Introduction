@@ -1,0 +1,102 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff035e;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#th1 {
+  stroke-dasharray: 658px;
+  stroke-dashoffset: 658px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+#th2 {
+  stroke-dasharray: 233px;
+  stroke-dashoffset: 233px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+#th3 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+#th4 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+#th5 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+#th6 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+#th7 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+#th8 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+#th9 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+#th10 {
+  stroke-dasharray: 1375px;
+  stroke-dashoffset: 1375px;
+  animation: fadeInside 0.6s ease-in forwards 0s;
+}
+#th11 {
+  stroke-dasharray: 1124px;
+  stroke-dashoffset: 1124px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+#th12 {
+  stroke-dasharray: 1165px;
+  stroke-dashoffset: 1165px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+#th13 {
+  stroke-dasharray: 1381px;
+  stroke-dashoffset: 1381px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+#th14 {
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+svg {
+  animation: fill 1s ease-in forwards 2.4s;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}

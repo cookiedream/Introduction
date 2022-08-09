@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>機車盲點偵測系統</title>
+    <meta name="description" content="機車輔助安全設備" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="./pic/123.png" />
+    <link rel="bookmark" herf="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <meta name="author" content="Ping-Yen,Yu" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="pic/black logo.svg" alt="Logo" />
+        <h1>機車盲點偵測系統</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">首頁</a></li>
+          <li><a href="first.html">文獻探討</a></li>
+          <li><a href="second.html">研究方法</a></li>
+          <li><a href="third.html">工作計畫</a></li>
+          <li><a href="forth.html">預期成果</a></li>
+          <li><a href="fifth.html">參考資料</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="left">
+        <h2>摘要</h2>
+        <h3>
+          盲點偵測在汽車的領域已經是一種普遍且成熟的產品，對於駕駛在車輛盲點的警示上起到一定的作用，而在機車上這項技術大多只能在高級的重型機車上看到，所以我們希望做出一個符合一般日常使用範圍的盲點偵測產品，使用Arduino
+          UNO微控器為開發平台具備體積小、耗電低、價格便宜，搭配ME007YS超音波測距模組、藍牙模組(HC-05)，取得偵測到的距離值加入公式換算為相對速度，並搭配RGB
+          LED燈號和蜂鳴器響聲來提醒，嘗試將已經在汽車上廣泛應用的技術套用在機車上，另外再以MIT
+          App
+          Inventor免費的雲端創作平台進行APP程式設計，設計一個擁有兩種模式可共切換選擇的App。
+        </h3>
+        <br />
+        <h3>
+          將裝置安裝在機車上，主機裝在機車車廂內，電源供應使用機車電瓶，因為台灣是靠右邊駕駛，而機車騎士在左轉的時候在大多數的路口是需要兩段式左轉，對機車騎士而言右轉的情況會比較多，所以感測器裝在機車右後方為主，在轉彎的過程中當有車輛進入視線盲區，依據感測器偵測到的數據傳給系統，系統根據數據來判斷路況的危險性，判斷完後控制燈號和蜂鳴器來提醒駕駛注意路況。
+        </h3>
+        <br />
+        <h3>使用者能透過藍芽連接APP來自行設定警戒區的範圍和預警的條件</h3>
+      </section>
+
+      <section class="right">
+        <img src="pic/4.png" alt="" width="500px" />
+      </section>
+      <section class="down"></section>
+    </main>
+    <footer>
+      <div class="logo">
+        <img src="pic/black logo.svg" alt="Logo" />
+        <h1>機車盲點偵測系統</h1>
+      </div>
+
+      <section class="links">
+        <center>
+          <div class="image-container">
+            <a href="https://www.facebook.com/profile.php?id=100004522510502"
+              ><img src="pic/facebook.svg" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/cookieyu_2000/"
+              ><img src="pic/instagram.svg" alt="instagram"
+            /></a>
+            <a href="#"><img src="pic/btn_base.png" alt="line" /></a>
+            <a href="https://youtu.be/MxrvYBRkaIA"
+              ><img src="pic/youtube.svg" alt="youtube"
+            /></a>
+          </div>
+        </center>
+      </section>
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeS37aaMB4bXreDplJdu1aniOdyDRz9-45IMgIahW5Bj1SIAw/viewform"
+        class="survey"
+        >問題回報</a
+      >
+    </footer>
+  </body>
+</html>
